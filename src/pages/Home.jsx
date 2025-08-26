@@ -2,6 +2,8 @@ import { useState } from "react";
 import Header from "../components/Header";
 import SidebarFilters from "../components/SidebarFilters";
 import { products } from "../Sampledata";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -44,11 +46,17 @@ export default function Home() {
                   key={product.id}
                   className="bg-gradient-to-t from-indigo-800 via-purple-800 to-indigo-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1"
                 >
+
+                  <Link to={`/product/${product.id}`} >
                   <img
                     src={product.images[0]}
                     alt={product.title}
                     className="w-full h-48 object-contain bg-white/5"
                   />
+                  </Link>
+
+
+
                   <div className="p-4">
                     <h3 className="text-lg font-semibold mb-1">{product.title}</h3>
                     <p className="text-gray-300 mb-2 text-sm">
@@ -75,7 +83,11 @@ export default function Home() {
             </div>
           )}
         </div>
+
+
+       
       </div>
+       <Footer/>
     </div>
   );
 }

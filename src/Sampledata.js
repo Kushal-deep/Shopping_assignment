@@ -7,8 +7,8 @@ export const products = [
     price: 1200,
     images: [
       "https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_1024x1024.png?v=1750486829",
-      "https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_1024x1024.png?v=1750486829",
-      "https://www.leafstudios.in/cdn/shop/files/1_a43c5e0b-3a47-497d-acec-b4764259b10e_1024x1024.png?v=1750486829"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicWct84d655eJVAtMYMp5pTNeK7VfVf35kw&s",
+      "https://images-cdn.ubuy.co.in/6624868973647a707e5b8399-2024-new-gaming-headset-for-pc-ps4.jpg"
     ],
     rating: 4.5,
     category: "electronics"

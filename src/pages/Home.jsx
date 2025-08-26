@@ -19,7 +19,7 @@ export default function Home() {
   const addToCart = (product) => setCart((prev) => [...prev, product]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#1F1F1F] via-[#2B0A0A] to-[#000000] text-white">
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 text-white">
       {/* Header */}
       <Header cartCount={cart.length} toggleSidebar={() => setSidebarOpen(true)} />
 
@@ -42,12 +42,12 @@ export default function Home() {
               {filteredProducts.map((product) => (
                 <div
                   key={product.id}
-                  className="bg-[#2C2C2C] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:-translate-y-1"
+                  className="bg-gradient-to-t from-indigo-800 via-purple-800 to-indigo-700 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1"
                 >
                   <img
                     src={product.images[0]}
                     alt={product.title}
-                    className="w-full h-48 object-contain"
+                    className="w-full h-48 object-contain bg-white/5"
                   />
                   <div className="p-4">
                     <h3 className="text-lg font-semibold mb-1">{product.title}</h3>
@@ -55,12 +55,12 @@ export default function Home() {
                       {product.description.slice(0, 60)}...
                     </p>
                     <div className="flex justify-between items-center">
-                      <span className="text-[#E63946] font-bold">
+                      <span className="text-yellow-400 font-bold">
                         ₹{product.price}
                       </span>
                       <button
                         onClick={() => addToCart(product)}
-                        className="bg-[#E63946] hover:bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium transition"
+                        className="bg-yellow-500 hover:bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-medium transition"
                       >
                         Add to Cart
                       </button>

@@ -28,13 +28,14 @@ A modern e-commerce shopping cart application built with React, Vite, and Tailwi
 ## Screenshots
 
 **Homepage**  
-![Homepage](screenshots/homepage.png)  
+![Homepage](<img width="1889" height="891" alt="Shopping-Cart-Home" src="https://github.com/user-attachments/assets/ecdbaac6-b7b5-4dbb-9098-5dd5fc1023de" />)
+
 
 **Product Detail Page**  
-![Product Detail](screenshots/product-detail.png)  
+![Product Detail](<img width="1881" height="874" alt="Shopping-Cart-ProductDetail" src="https://github.com/user-attachments/assets/3cc00d40-9b99-4dec-a2a1-e2f0facf2bb3" />)  
 
 **Cart Sidebar**  
-![Cart Sidebar](screenshots/cart.png)  
+![Cart Sidebar](<img width="1873" height="817" alt="Shopping-Cart-Cart(page)" src="https://github.com/user-attachments/assets/8a952a44-dad2-4386-93a6-0a59803cc6e1" />)  
 
 
 ## Technologies Used

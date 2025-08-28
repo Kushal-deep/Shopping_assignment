@@ -62,7 +62,7 @@ npm install
 npm run dev
 
 
-##Usage
+### Usage
 
 1.Browse products on the homepage
 2.Use filters and search to find products
@@ -71,7 +71,7 @@ npm run dev
 5.Checkout to simulate an order
 
 
-##Future Enhancements
+### Future Enhancements
 
 1.Integrate real backend & authentication
 2.Implement payment gateway
